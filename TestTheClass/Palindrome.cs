@@ -14,8 +14,8 @@ namespace TestTheClass
             Console.WriteLine(IsPalindrome("abcdef"));
         }
 
-        //abcd
-        //0123
+        //abcde
+        //01234
         private static bool IsPalindrome(string word)
         {
             for (int i = 0; i < word.Length / 2; i++)
